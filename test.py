@@ -13,5 +13,5 @@ if data_file is not None:
     df = pd.read_csv(data_file)
     st.dataframe(df.head())
     Profile = ProfileReport(df)
-	st_profile_report(Profile)
+    st_profile_report(Profile)
 
